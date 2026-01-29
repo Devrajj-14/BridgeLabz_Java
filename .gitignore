@@ -1,0 +1,16 @@
+# Compiled Java bytecode
+*.class
+
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# Common build folders
+target/
+build/
+.gradle/
+
+# OS files
+.DS_Store
+
