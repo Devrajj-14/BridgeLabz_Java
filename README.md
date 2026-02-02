@@ -19,3 +19,4 @@
 - **29-Jan-2026 (Wed):** Completed and submitted all pending Java lab assignments; verified compilation and execution of each program and finalized project structure for smooth runs
 - **30-Jan-2026 (Thu):** Designed and practiced various UML diagrams including Class, Use Case, Sequence, and Activity diagrams to understand relationships and system flow
 - **31-Jan-2026 (Fri):** Implemented and tested inheritance programs in Java covering single, multilevel, and hierarchical inheritance with method overriding
+- **02-Feb-2026 (Mon):** Practically implemented core Object-Oriented Programming concepts in Java, including inheritance, encapsulation, interfaces, and method overriding. Solved assignment questions to strengthen understanding and improve hands-on coding skills.
