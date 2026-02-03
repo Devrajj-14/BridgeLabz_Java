@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4ef448b-f892-4543-97cf-bb9b8d063eb6" name="Changes" comment="" />
+    <list default="true" id="b4ef448b-f892-4543-97cf-bb9b8d063eb6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,12 +35,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BankAccount.executor": "Run",
+    "Application.EmployeeManagementSystem.executor": "Run",
     "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature/coreProgramming",
+    "git-widget-placeholder": "feature/oops",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/devrajgoswami/BL-[Devraj]",
     "onboarding.tips.debug.path": "/Users/devrajgoswami/BL-[Devraj]/BL/src/Main.java",
@@ -52,7 +57,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.EmployeeManagementSystem">
     <configuration name="BankAccount" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="staticFinalConcepts.BankAccount" />
       <module name="BL" />
@@ -60,8 +65,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EmployeeManagementSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="staticFinalConcepts.EmployeeManagementSystem" />
+      <module name="BL" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="staticFinalConcepts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmployeeManagementSystem" />
         <item itemvalue="Application.BankAccount" />
       </list>
     </recent_temporary>

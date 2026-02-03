@@ -1,16 +1,37 @@
-# Compiled Java bytecode
+# =========================
+# Java build outputs
+# =========================
 *.class
+*.jar
+*.war
+*.ear
+*.log
 
-# IntelliJ
+# If you ever generate build folders
+/target/
+/bin/
+/out/
+/build/
+
+# =========================
+# IntelliJ IDEA
+# =========================
 .idea/
 *.iml
-out/
 
-# Common build folders
-target/
-build/
-.gradle/
-
-# OS files
+# =========================
+# OS junk
+# =========================
 .DS_Store
+Thumbs.db
 
+# =========================
+# Optional: keep only source code in src
+# (Uncomment these if you really want to ignore everything else)
+# =========================
+# *
+# !src/
+# !src/**/
+# !src/**/*.java
+# !.gitignore
+# !README.md
