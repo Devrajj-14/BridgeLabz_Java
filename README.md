@@ -22,3 +22,6 @@
 - **02-Feb-2026 (Mon):** Practically implemented core Object-Oriented Programming concepts in Java, including inheritance, encapsulation, interfaces, and method overriding. Solved assignment questions to strengthen understanding and improve hands-on coding skills.
 - **03-Feb-2026 (Tue):** Revised all core Object-Oriented Programming (OOP) concepts in Java, covering inheritance, encapsulation, abstraction, interfaces, and polymorphism to reinforce conceptual clarity. Additionally, began studying Data Structures and Algorithms (DSA) with a focus on Linked List, understanding its structure, basic operations, and use cases through initial practice problems.
 - **04-Feb-2026 (wed):** Worked on the OOPS Banner App GitFlow setup, created the UC1 feature branch, fixed the GitHub 404 issue, and revised linked list concepts by practicing insert, delete-by-id, traversal, and quantity update logic in Java.
+- **05-Feb-2026 (Thu):** Interection with Bridge lands VP , also completed oops banner app fully. 
+- **06-Feb-2026 (Fri):** Studied Stack, Queue, HashMap, and hashing in Java. Learned their internal workings, key operations, and real-world applications, and practiced related assignment problems.
+- **07-Feb-2026 (Sat):** Completed the hash map questions hash function questions and queue questions of th assignment.
