@@ -26,4 +26,5 @@
 - **06-Feb-2026 (Fri):** Studied Stack, Queue, HashMap, and hashing in Java. Learned their internal workings, key operations, and real-world applications, and practiced related assignment problems.
 - **07-Feb-2026 (Sat):** Completed the hash map questions hash function questions and queue questions of th assignment.
 - **09-Feb-2026 (Mon):** Started with sorting techniques and solved the questions.Revised all the previous algorithms
-- **10-Feb-2026 (Tue):** Revised topic related to linked-list, stack, queue and hash map . Started the searching algo
+- **10-Feb-2026 (Tue):** Revised topic related to linked-list, stack, queue and hash map . Started the searching algos.
+- **11-Feb-2026 (Wed):** Covered Java Generics (type parameters, generic classes/methods, bounded types & wildcards) and revised runtime analysis basics with Big-O time/space complexity.
