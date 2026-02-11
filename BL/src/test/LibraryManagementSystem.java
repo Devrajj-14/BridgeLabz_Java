@@ -3,7 +3,7 @@ package test;
 import java.util.HashMap;
 import java.util.Map;
 
-// Book class to store book details
+/* Book class to store book details*/
 class Book {
     String bookName;
     String bookTitle;
