@@ -1,5 +1,7 @@
 package LinkedList;
 
+import java.util.Arrays;
+
 class Movie{
     String movieTitle;
     String director;
@@ -65,7 +67,6 @@ public class MovieManagement {
         list.addFirst(new Movie("collage ", "Devraj" , 1992, 4.8));
         list.addEnd(new Movie("abode" , "Saatvik", 1993,4.8));
         list.addBetween(new Movie("movie","sss",1994,4.2),2);
-
 
         list.display();
     }
