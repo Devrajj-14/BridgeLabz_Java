@@ -28,3 +28,4 @@
 - **09-Feb-2026 (Mon):** Started with sorting techniques and solved the questions.Revised all the previous algorithms
 - **10-Feb-2026 (Tue):** Revised topic related to linked-list, stack, queue and hash map . Started the searching algos.
 - **11-Feb-2026 (Wed):** Covered Java Generics (type parameters, generic classes/methods, bounded types & wildcards) and revised runtime analysis basics with Big-O time/space complexity.
+- **14-Feb-2026 (Sat):** completed java regex 
