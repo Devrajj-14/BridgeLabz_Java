@@ -13,7 +13,7 @@ public class ValidPassword {
     }
     public static void main(String[] args){
         Scanner sc= new Scanner(System.in);
-        String regex="^(?=.{8,}$)(?=.*[A-Z])(?=.*[\\d])(?=(?:.*[!@#$%^&*]){1}.*$)[A-Za-z\\d!@#$%^&*]+$";
+        String regex="^(?=.{8,}$)(?=.*[A-Z])(?=.*[\\d])(?=.*[!@#$%^&*]).*$)[A-Za-z\\d!@#$%^&*]+$";
         System.out.println("enter string");
         String str=sc.nextLine();
 
