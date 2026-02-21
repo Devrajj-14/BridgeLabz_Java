@@ -49,14 +49,15 @@ class SmartWareHouse{
 }
 
 public class WareHouseManagement {
-    public static void main(String[] args){
-        Storage<Electronics> e= new Storage<>();
+    public static void main(String[] args) {
+        Storage<Electronics> e = new Storage<>();
         e.addItem(new Electronics("Mobile"));
-        Storage<Gros> g =new Storage<>();
+        Storage<Gros> g = new Storage<>();
         g.addItem(new Gros("fruit"));
+
 
         SmartWareHouse.show(e.all());
         SmartWareHouse.show(g.all());
     }
-
 }
+
