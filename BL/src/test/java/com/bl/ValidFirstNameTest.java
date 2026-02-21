@@ -3,28 +3,29 @@ package com.bl;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-class ValidFirstNameTest {
+public class ValidFirstNameTest {
 
     @Test
-    void shouldReturnTrueForValidFirstName() {
-        Assertions.assertTrue(ValidFirstName.check("Devraj"));
+    void givenFirstName_WhenValid_ShouldReturnTrue() {
+        ValidFirstName validator = new ValidFirstName();
+        Assertions.assertTrue(validator.validate("Devraj"));
     }
 
     @Test
-    void shouldReturnFalseIfFirstLetterNotCapital() {
-        assertFalse(ValidFirstName.check("devraj"));
+    void givenFirstName_WhenNotStartingWithCap_ShouldReturnFalse() {
+        ValidFirstName validator = new ValidFirstName();
+        Assertions.assertFalse(validator.validate("devraj"));
     }
 
     @Test
-    void shouldReturnFalseIfTooShort() {
-        assertFalse(ValidFirstName.check("De"));
+    void givenFirstName_WhenLessThan3Chars_ShouldReturnFalse() {
+        ValidFirstName validator = new ValidFirstName();
+        Assertions.assertFalse(validator.validate("De"));
     }
 
     @Test
-    void shouldReturnFalseIfContainsNonLetters() {
-        assertFalse(ValidFirstName.check("Devraj1"));
-        assertFalse(ValidFirstName.check("Dev_raj"));
+    void givenFirstName_WhenContainsNumber_ShouldReturnFalse() {
+        ValidFirstName validator = new ValidFirstName();
+        Assertions.assertFalse(validator.validate("De1"));
     }
 }
