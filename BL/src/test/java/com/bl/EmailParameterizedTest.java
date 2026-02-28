@@ -59,3 +59,7 @@ public class EmailParameterizedTest {
         Assertions.assertEquals(expected, validator.validate(email));
     }
 }
+
+
+//Map<Boolean, List<Integer>> parity =
+//        nums.stream().collect(Collectors.partitioningBy(i -> i % 2 == 0));
